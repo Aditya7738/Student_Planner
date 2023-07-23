@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InternshipTask3"
+        tools:targetApi="31" >
+        <activity
+            android:name=".taskmanagment.Attachments.AttachmentList"
+            android:exported="false" />
+        <activity
+            android:name=".taskmanagment.notifications.NotificationList"
+            android:exported="false" />
+        <activity
+            android:name=".taskmanagment.UpdateTaskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".taskmanagment.Attachments.Attachment"
+            android:exported="false" />
+        <activity
+            android:name=".taskmanagment.taskdetails.EditNote"
+            android:exported="false" />
+        <activity
+            android:name=".ScheduleCalendar"
+            android:exported="false" />
+        <activity
+            android:name=".taskmanagment.alarmmanager.SetAlarmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".taskmanagment.alarmmanager.AlarmsList"
+            android:exported="false" />
+        <activity
+            android:name=".taskmanagment.AddTaskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".taskmanagment.insights.OverAllActivity"
+            android:exported="false" />
+        <activity
+            android:name=".taskmanagment.TaskManagement"
+            android:exported="false" />
+        <activity
+            android:name=".authentication.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".taskmanagment.taskdetails.ShowTaskDetails"
+            android:exported="false" />
+        <activity
+            android:name=".authentication.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".taskmanagment.alarmmanager.AlarmReceiver" />
+        <receiver android:name=".taskmanagment.notifications.NotificationReceiver" />
+    </application>
+
+</manifest>

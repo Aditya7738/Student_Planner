@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addAlarmIcon"
+        android:icon="@drawable/baseline_add_alarm_24"
+        app:showAsAction="always"
+        android:orderInCategory="3"
+        android:title="add alarm" />
+<!--    <item-->
+<!--        android:id="@+id/notifyIcon"-->
+<!--        android:icon="@drawable/baseline_notifications_24"-->
+<!--        app:showAsAction="always"-->
+<!--        android:orderInCategory="2"-->
+<!--        android:title="notification"/>-->
+
+    <item
+        android:id="@+id/calendarIcon"
+        android:icon="@drawable/baseline_calendar_month_24"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        android:title="Calendar"
+        />
+
+</menu>
