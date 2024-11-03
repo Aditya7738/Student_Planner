@@ -1,3 +1,4 @@
+
 # Student_Planner
 Student Planner android app helps students to organize their academic tasks and manage their schedules efficiently. The application provides features that assist students in tracking assignments, managing deadlines, and staying organized throughout their academic journey. Features of this app are as follows:
 1. The application’s UI design is adaptive to different screen sizes
@@ -9,3 +10,5 @@ Student Planner android app helps students to organize their academic tasks and 
 
 ### Main Activity
 ![App image](imageFolder/image1.jpeg)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M515CIMK)
